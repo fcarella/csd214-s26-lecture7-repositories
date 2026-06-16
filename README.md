@@ -2,7 +2,7 @@
 
 ## 🛑 CSD214 S26 Lecture 7: The Repository Pattern & Abstraction Layers
 This repository serves as the official base for the [**CSD214 Lecture 7 In-Class Exercise and Lab 5 Preparation**](https://docs.google.com/document/d/1naWgzt2X1AGIbOvj9BiYaqkcTuNx5Z33HAvuHc7JQRA/edit?usp=sharing). Building upon the JPA and Hibernate mappings established in Lecture 6, we are now abstracting our data-access logic behind a clean **Repository Layer** to decouple our database queries from our core CLI business logic [6, 7].
-- xxx
+
 ### **Repository Implementation Overview**
 The `bookstore.repositories` package contains the boundary layers designed to isolate our database plumbing (the `EntityManager` and transactions) from the user interface [6, 7]:
 
